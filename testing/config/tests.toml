@@ -202,3 +202,11 @@ test_name = "cpp_complex"
 source_file = "cpp/complex/*.cpp"
 add_compiler_flags = "-lm"
 black_list = ["--inter-rasm", "--racfed"]
+
+[[tests]]
+test_name = "c_bitfields"
+source_file = "c/data_representation/bitfields.c"
+
+[[tests]]
+test_name = "c_type_punning"
+source_file = "c/data_representation/type_punning.c"
