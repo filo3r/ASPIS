@@ -202,3 +202,11 @@ test_name = "cpp_complex"
 source_file = "cpp/complex/*.cpp"
 add_compiler_flags = "-lm"
 black_list = ["--inter-rasm", "--racfed"]
+
+[[tests]]
+test_name = "c_ndes"
+source_file = "c/taclebench/ndes.c"
+
+[[tests]]
+test_name = "c_statemate"
+source_file = "c/taclebench/statemate.c"
